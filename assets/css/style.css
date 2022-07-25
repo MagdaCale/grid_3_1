@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+
+/* ******* generel style ****** */
+
+
+/* ******* HEADER  ****** */
+
+header {
+    top: 0;
+    height: 76px;
+    margin-bottom: 1em;
+    position: sticky;   
+    background-color: #fff;
+}
+
+nav {
+    margin-top: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 5em;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.logo:hover {
+    color: #000000;
+}
+
+a {
+    color: #333;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #337ab7;
+}
+
+.navigation a {
+    padding-right: 40px;
+    font-size: 0.8rem;
+    list-style: none;
+    display: inline-block;
+}
+
+
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/ocean.jpeg');
+}
+
+.heroSection>h1 {
+    width: 50%;
+    font-size: 4rem;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.heroSection>p {
+    margin: 20px;
+    font-weight: 200;
+    font-size: 0.90rem;
+}
+
+/* ******  hero Section Buttons ****** */
+
+.download {
+    transition: 0.5s;
+    font-size: 0.75em;
+    padding: 15px 33px;
+    border: 1px solid white;
+    color: white; 
+}
+
+.download:hover {
+    color: black;
+    background-color: white;
+}
+
+/* die class btn befindet sich unten */
+.read, .btn {
+    font-size: 0.75em;
+    color: white;
+    background-size: 200% auto;
+    transition: 0.5s;
+    padding: 15px 50px;
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+}
+
+.read:hover, .btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    border: none;
+    text-align: center;
+}
+
+.link {
+    margin: 5px 0;
+}
+
+/* ****** Mittlere Section ****** */
+
+.middleSection {
+    padding: 50px;
+    display: flex;
+}
+
+/* ****** Mittlere Article ****** */
+
+.middleArticle {
+    padding: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.middleArticle>p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    width: 89%;
+}
+
+.laptopImg {
+    width: 60%;
+}
+
+.readMoreBg {
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.seeItBg {
+    background-color: #d6d6d6;
+}
