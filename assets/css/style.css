@@ -118,8 +118,9 @@ a:hover {
     background-size: 200% auto;
     transition: 0.5s;
     padding: 15px 50px;
-    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+    background-image: linear-gradient(142deg, rgba(17,71,136,1) 0%, rgba(191,222,254,1) 44%, rgba(62,124,182,1) 78%);
 }
+
 
 .read:hover, .btn:hover {
     background-position: right center;
